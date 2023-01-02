@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future | ANSSATZ</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <nav class="main-navigation transparent main-navigation--absolute">
+            <div class="navigation-logo">
+                <a href="/" class="anchor-no-decoration">
+                    <img src="./images/anssatzlogo.png" alt="anssatz" width="256" />
+                </a>
+            </div>
+            <ul class="flex navigation-list-h">
+                <li>
+                    <a href="/mark-i" class="anchor-no-decoration main-navigation-link">
+                        <span>Mark I</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/golf" class="anchor-no-decoration main-navigation-link">
+                        <span>Golf</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/news" class="anchor-no-decoration main-navigation-link">
+                        <span>Noticias</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/us" class="anchor-no-decoration main-navigation-link">
+                        <span>Nosotros</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact" class="anchor-no-decoration main-navigation-link">
+                        <span>Contáctanos</span>
+                    </a>
+                </li>
+            </ul>
+            <button type="button" class="navigation-menu-link">
+                <span class="tds-site-nav-item-text">Menú</span>
+            </button>
+        </nav>
+    </header>
+    <dialog class="side-menu">
+        <div class="side-menu-actions">
+            <button class="side-menu--close">
+                <svg class="side-menu--close-icon" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><g stroke="#171a20" stroke-width="1.5" stroke-linecap="round"><line x1="10" y1="10" x2="20" y2="20"></line><line x1="20" y1="10" x2="10" y2="20"></line></g></svg>
+            </button>
+        </div>
+        <ul class="side-menu-links">
+            <li class="side-menu-link-nav">
+                <a href="/mark-i" class="anchor-no-decoration">
+                    <span>Mark I</span>
+                </a>
+            </li>
+            <li class="side-menu-link-nav">
+                <a href="/golf" class="anchor-no-decoration">
+                    <span>Golf</span>
+                </a>
+            </li>
+            <li class="side-menu-link-nav">
+                <a href="/news" class="anchor-no-decoration">
+                    <span>Noticias</span>
+                </a>
+            </li>
+            <li class="side-menu-link-nav">
+                <a href="/us" class="anchor-no-decoration">
+                    <span>Nosotros</span>
+                </a>
+            </li>
+            <li class="side-menu-link-nav">
+                <a href="/contact" class="anchor-no-decoration">
+                    <span>Contáctanos</span>
+                </a>
+            </li>
+        </ul>
+    </dialog>
+    <section class="header-banner">
+        <picture>
+            <source srcset="./images/marki600x1300.png"
+                    media="(max-width: 767px)">
+            <source srcset="./images/marki600x1300.png"
+                    media="(min-width: 768px) and (orientation:portrait)">
+            <source srcset="./images/marki2158x1798.png"
+                    media="(min-width: 768px)">
+            <img src="./images/marki2158x1798.png" alt="Mark I" />
+        </picture>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
